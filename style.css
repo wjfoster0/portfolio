@@ -957,6 +957,9 @@ button.corner-button.orange:hover {
   .top-bar.project-page .project-page-top-title {
     size: 1.5rem;
   }
+  .download-cv {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
