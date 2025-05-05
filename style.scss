@@ -1179,3 +1179,17 @@ button{
             background: red;
           }
     }
+    
+    @media (pointer: none){
+        .container {
+           
+            background: blue;
+          }
+    }
+
+    @media (hover: none){
+        .container {
+           
+            background: green;
+          }
+    }
