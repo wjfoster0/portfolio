@@ -939,7 +939,7 @@ button.corner-button.orange:hover {
     display: none;
   }
   .container {
-    background: green;
+    background: lightgoldenrodyellow;
   }
   .project-container {
     padding-bottom: 4rem;
@@ -955,7 +955,7 @@ button.corner-button.orange:hover {
     transform: scale(1.5);
   }
   .top-bar.project-page .project-page-top-title {
-    size: 1.25rem;
+    size: 1.5rem;
   }
 }
 
