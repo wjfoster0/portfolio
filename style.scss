@@ -1170,7 +1170,7 @@ button{
 
         .container {
             
-            background: turquoise;
+            background: green;
           }
 
 
@@ -1187,12 +1187,16 @@ button{
 
         .top-bar.project-page{
             .corner-button{
-                width: 2.5rem;
-                height: 2.5rem;
+                width: 2rem;
+                height: 2rem;
 
                 .cb-icon{
                     transform: scale(1.5);
                 }
+            }
+
+            .project-page-top-title{
+                size: 1.25rem;
             }
         }
     }
