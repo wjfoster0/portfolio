@@ -926,9 +926,6 @@ button.corner-button.orange:hover {
   .project-section .cover-image {
     object-position: left center;
   }
-  .carousel .carousel-btn {
-    display: none;
-  }
 }
 @media (max-width: 335px) {
   .box {
@@ -939,6 +936,11 @@ button.corner-button.orange:hover {
   }
   .row-3 {
     flex-direction: column;
+  }
+}
+@media (pointer: coarse) {
+  .carousel .carousel-btn {
+    display: none;
   }
 }
 

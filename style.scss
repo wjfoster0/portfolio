@@ -1143,9 +1143,7 @@ button{
 
     }
 
-    .carousel .carousel-btn{ 
-        display: none;
-    }
+
   }
     
 
@@ -1163,5 +1161,13 @@ button{
 
         .row-3{
             flex-direction: column;
+        }
+    }
+
+
+    @media (pointer: coarse) {
+
+        .carousel .carousel-btn{ 
+            display: none;
         }
     }
