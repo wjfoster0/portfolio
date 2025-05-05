@@ -1097,10 +1097,7 @@ button{
         }
     }
 
-    .project-container{
-        padding: 2rem;
-        margin-bottom: 6rem;
-    }
+
 
     .header-body .below-header{
         padding: 1rem;
@@ -1176,20 +1173,20 @@ button{
             width: 100%;
             overflow-y: auto;
             scroll-snap-type: y mandatory;
-            background: red;
-          }
-    }
-    
-    @media (pointer: none){
-        .container {
-           
-            background: blue;
-          }
-    }
-
-    @media (hover: none){
-        .container {
-           
             background: green;
           }
+
+
+        .project-container{
+            padding: 2rem;
+        }
+
+        .box{
+            
+            &#cv-box{
+                
+                margin-bottom: 6rem;
+            }
+        }
     }
+
