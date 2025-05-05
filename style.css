@@ -947,6 +947,9 @@ button.corner-button.orange:hover {
   .box#cv-box {
     margin-bottom: 12rem;
   }
+  .top-bar.project-page {
+    gap: 0.65rem;
+  }
   .top-bar.project-page .corner-button {
     width: 2rem;
     height: 2rem;
