@@ -939,13 +939,20 @@ button.corner-button.orange:hover {
     display: none;
   }
   .container {
-    background: orange;
+    background: turquoise;
   }
   .project-container {
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
   .box#cv-box {
     margin-bottom: 12rem;
+  }
+  .top-bar.project-page .corner-button {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .top-bar.project-page .corner-button .cb-icon {
+    transform: scale(1.5);
   }
 }
 
