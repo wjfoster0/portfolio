@@ -943,10 +943,10 @@ button.corner-button.orange:hover {
     width: 100%;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
-    background: pink;
+    background: orange;
   }
   .project-container {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
   }
   .box#cv-box {
     margin-bottom: 12rem;
