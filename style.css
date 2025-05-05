@@ -883,7 +883,7 @@ button.corner-button.orange:hover {
     padding: 0 6vw 0 6vw;
   }
   .footer {
-    height: 14rem;
+    height: 17rem;
     margin-top: -13rem;
     display: flex;
     padding: 0 6vw 0 6vw;
@@ -943,7 +943,10 @@ button.corner-button.orange:hover {
     width: 100%;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
-    background: blue;
+    background: pink;
+  }
+  .project-container {
+    padding-bottom: 12rem;
   }
   .box#cv-box {
     margin-bottom: 12rem;

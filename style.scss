@@ -1081,7 +1081,7 @@ button{
 
     .footer{
 
-        height: 14rem;
+        height: 17rem;
         margin-top: -13rem;
         display: flex;
         padding: 0 6vw 0 6vw;
@@ -1173,11 +1173,17 @@ button{
             width: 100%;
             overflow-y: auto;
             scroll-snap-type: y mandatory;
-            background: blue;
+            background: pink;
           }
 
 
-      
+        .project-container{
+            padding-bottom: 12rem;
+        }
+
+        .footer{
+            
+        }
 
         .box{
             
