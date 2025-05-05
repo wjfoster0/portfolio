@@ -155,6 +155,9 @@ ul {
 .box#project-box {
   margin-bottom: -40vh;
 }
+.box#cv-box {
+  position: relative;
+}
 
 .top-bar {
   display: flex;
@@ -377,6 +380,8 @@ ul {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
   display: flex;
   width: 100%;
   height: 12rem;
@@ -385,7 +390,6 @@ footer {
   align-items: center;
   gap: 0.0625rem;
   background: var(--black, #181818);
-  margin-top: -26vh;
   padding: 0 18vw 0 18vw;
 }
 footer .footer-container {
@@ -892,6 +896,7 @@ button.corner-button.orange:hover {
   }
   .project-container {
     padding: 2rem;
+    margin-bottom: 3rem;
   }
   .header-body .below-header {
     padding: 1rem;
@@ -919,6 +924,9 @@ button.corner-button.orange:hover {
   }
   .project-section .cover-image {
     object-position: left center;
+  }
+  .carousel .carousel-button {
+    display: none;
   }
 }
 @media (max-width: 335px) {
