@@ -943,7 +943,7 @@ button.corner-button.orange:hover {
     width: 100%;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
-    background: green;
+    background: blue;
   }
   .box#cv-box {
     margin-bottom: 12rem;
