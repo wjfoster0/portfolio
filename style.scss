@@ -749,6 +749,24 @@ footer{
   }
   
 
+  .carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-dots .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-dots .dot.active {
+    background-color: #717171; /* Active dot color */
+}
 
 
 
@@ -1094,12 +1112,13 @@ button{
             gap: 1.5rem;
             align-items: flex-start;
             padding-bottom: 2rem;
+            margin-bottom: 6rem;
         }
     }
 
     .project-container{
         padding: 2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 6rem;
     }
 
     .header-body .below-header{
@@ -1143,7 +1162,7 @@ button{
 
     }
 
-    .carousel .carousel-button{ 
+    .carousel .carousel-btn{ 
         display: none;
     }
   }
