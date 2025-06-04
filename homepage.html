@@ -25,18 +25,20 @@
                 </div>
             </div>
             <div class="nav-section right">
-                <button class="nav-button">Projects</button>
-                <button class="nav-button">About me</button>
-                <button>Contact me</button>
+                <button class="nav-button desktop-nav">Projects</button>
+                <button class="nav-button desktop-nav">About me</button>
+                <button class="desktop-nav open-contact-modal">Contact me</button>
+                <button class="nav-button icon-only mobile-nav"><img src="images/svg/burger.svg" alt="Menu"></button>
             </div>
         </div>
     </nav>
 
     <div class="red-dot" id="dot"></div>
+    <div class="white-box" id="box"></div>
 
     <!--<div class="all-ring-container"><img class="all-ring" src="allrings.svg"></div>-->
 
-   
+    <div class="background-rings">
     <div class="ring-container"><svg class="ring" width="2600" height="2600" viewBox="0 0 2600 2600" xmlns="http://www.w3.org/2000/svg"><circle cx="1300" cy="1300" r="1250" fill="none" stroke="#15151533" stroke-width="100"/></svg></div>
     <div class="ring-container"><svg class="ring" width="2400" height="2400" viewBox="0 0 2400 2400" xmlns="http://www.w3.org/2000/svg"><circle cx="1200" cy="1200" r="1150" fill="none" stroke="#15151533" stroke-width="100"/></svg></div>
     <div class="ring-container"><svg class="ring" width="2200" height="2200" viewBox="0 0 2200 2200" xmlns="http://www.w3.org/2000/svg"><circle cx="1100" cy="1100" r="1050" fill="none" stroke="#15151533" stroke-width="100"/></svg></div>
@@ -50,7 +52,7 @@
     <div class="ring-container"><svg class="ring" width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"><circle cx="300" cy="300" r="250" fill="none" stroke="#15151533" stroke-width="100"/></svg></div>
     <div class="ring-container"><svg class="ring" width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><circle cx="200" cy="200" r="150" fill="none" stroke="#15151533" stroke-width="100"/></svg></div>
     <div class="ring-container"><svg class="ring" width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="50" fill="none" stroke="#15151533" stroke-width="100"/></svg></div>
- 
+    </div>
   
 
     <div class="main-title">
@@ -58,10 +60,85 @@
         <h2>Portfolio</h2>
     </div>
 
+    <div class="opening-text">
+        <h4>Hi, I'm Will,</h4>
+        <h4>A product designer, with experience in UX/UI, industrial design and design engineering. I care about building software founded on truly holistic design, products which work for the people using them whilst looking great.</h4>
+        <h4>For the last few years I’ve been working as the principal software designer at Midsummer, a mid-sized company, where I handle design direction, brand identity, and UX/UI strategy for all key projects.</h4>
+    </div>
         
+   
+  <div class="horizontal-scroll-wrapper" id="horizontalWrapper">
+    <div class="horizontal-scroll-content">
+      <div class="horizontal-inner" id="scrollTrack">
+        <div class="panel">
+            <div class="cover-image-container"><img src="images/gw-cover.png" class="cover-image" alt="Solar panels"></div>
+            <div class="cover-content">
+                <h3>Gigawatt</h3>
+                <p>Improved usability and trust through UI updates and brand refinement.</p>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="cover-image-container"><img src="images/mid-cover.png" class="cover-image" alt="Solar panels"></div>
+            <div class="cover-content">
+                <h3>Midsummer</h3>
+                <p>Refreshed branding and redesigned website for better product discoverability.</p>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="cover-image-container"><img src="images/smp-cover.png" class="cover-image" alt="Solar panels"></div>
+            <div class="cover-content">
+                <h3>Solar Marketplace</h3>
+                <p>Designed a quote comparison tool connecting homeowners with solar installers.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-lhs">
+            <h3 class="nav-bar-name">Will Foster</h3>
+            <div class="available-to-work">
+                <div class="green-dot"></div>
+                <p>Available to work</p>
+            </div>
+        </div>
+        <div class="footer-rhs">
+       
+        <a href="/files/Will_Foster_UXUI_Resume.pdf" target="_blank" class="button-link"><button class="footer-button">Open resume</button></a>
+        <button class="footer-button open-contact-modal">Contact me</button>
+        </div>
+    </div>
+</footer>
 
 
 
+<div id="modalBackdrop" class="hidden">
+    <div id="modalOverlay">
+    <div id="modalBox">
+      <h3>Let’s work together!</h3>
+      <p>I’m currently open to new opportunities, whether freelance, contract, or full-time.</p>
+      <p>If you think I’d be a good fit for your team or project, I’d love to hear from you.</p>
+      <div class="contact-box">
+        <div class="name-work">
+            <h3>Will Foster</h3>            
+            <div class="available-to-work">
+                <div class="green-dot"></div>
+                <p>Available to work</p>
+            </div>
+        </div>
+        <h5>wjfoster0@gmail.com</h5>
+      </div>
+      <div class="modal-buttons">
+      <button id="copy-email">Copy email</button>
+      <button id="mail-to">Email me</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id="toast">Copied to clipboard!</div>
       
 
   <script src="script.js"></script>
