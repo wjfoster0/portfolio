@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gigawatt Design System</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Changa:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Changa:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#151515"/>
+    <meta name="theme-color" content="#000">
+</head>
+<body>
+    <nav class="main-nav">
+        <div id="inner-nav">
+            <div class="nav-section left">
+                <h3 class="nav-bar-name">Will Foster</h3>
+                <div class="available-to-work">
+                    <div class="green-dot"></div>
+                    <p>Available to work</p>
+                </div>
+            </div>
+            <div class="nav-section right">
+                <a href="/index.html" class="button-link"><button class="nav-button desktop-nav">Home</button></a>
+                <button class="desktop-nav open-contact-modal">Contact me</button>
+                <button class="nav-button icon-only mobile-nav"  id="menu-toggle" ><img src="/images/svg/burger.svg" alt="Menu"></button>
+            </div>
+        </div>
+    </nav>
+
+
+
+  <!-- Sidebar -->
+  <nav class="mobile-sidebar" id="sidebar">
+    <div id="close-sidebar" class="close-button"></div>
+    <ul>
+      <li><a href="/index.html" class="button-link"><button class="nav-button desktop-nav">Home</button></a></li>
+      <li><button class="desktop-nav open-contact-modal">Contact me</button></li>
+    </ul>
+  </nav>
+
+  <div id="sidebar-overlay"></div>
+
+
+  <div class="main-content">
+    <div class="text-section">
+        <h2>Title</h2>
+        <p class="bold">I led the design and implementation of a full design system for Easy PV, a web-based solar design platform used across the UK and Ireland to plan, cost, and document photovoltaic systems — from domestic rooftops to gigawatt-scale installations. The product had scaled quickly without any design foundation, resulting in inconsistency and friction. My work brought visual clarity, UX consistency, and long-term maintainability to a platform used by thousands of installers and engineers daily.</p>
+    </div>
+
+    <div class="image-frame seven-image-grid">
+        <img src="/images/gw-design-system/gw-screenshots/gw-screenshot-6.png" alt="gigawatt screenshot" class="image image-1">
+        <img src="/images/gw-design-system/gw-screenshots/gw-screenshot-7.png" alt="gigawatt screenshot" class="image image-2">
+        <img src="/images/gw-design-system/gw-screenshots/gw-screenshot-5.png" alt="gigawatt screenshot" class="image image-3">
+        <img src="/images/gw-design-system/gw-screenshots/gw-screenshot-3.png" alt="gigawatt screenshot" class="image image-4">
+        <img src="/images/gw-design-system/gw-screenshots/gw-screenshot-4.png" alt="gigawatt screenshot" class="image image-5">
+        <img src="/images/gw-design-system/gw-screenshots/gw-screenshot-2.png" alt="gigawatt screenshot" class="image image-6">
+        <img src="/images/gw-design-system/gw-screenshots/gw-screenshot-1.png" alt="gigawatt screenshot" class="image image-7">
+    </div>
+
+    <div class="text-section">
+        <h2 class="smaller">Context & Problem</h2>
+        <p>Easy PV is a comprehensive solar design tool used by sales teams, engineers, and installation companies to spec and design PV systems, generate compliance documents, estimate costs and quote systems to homeowners. Despite its technical capabilities, the UI had grown organically — built almost entirely by engineers, without any dedicated designers.</p>
+        <p>By the time I joined the team, Easy PV was supporting projects ranging from small domestic arrays to industrial-scale multi-megawatt systems, but the interface was increasingly difficult to use and maintain:</p>
+        <ul>
+            <li>Inconsistent UI elements confused users and slowed onboarding</li>
+            <li>Developers were re-creating components manually, leading to bugs and styling drift</li>
+            <li>There was no central source of truth for spacing, colours, or patterns</li>
+        </ul>
+        <p>This was a well-used product in a critical infrastructure space. Fixing the design deficit wasn’t just a visual upgrade — it was essential for scalability, reliability, and user trust.</p>
+    </div>
+
+    <div class="image-frame four-image-grid">
+        <img src="/images/gw-design-system/old-new/old-panels.png" alt="gigawatt screenshot" class="image image-1">
+        <img src="/images/gw-design-system/old-new/new-panels.png" alt="gigawatt screenshot" class="image image-2">
+        <img src="/images/gw-design-system/old-new/old-allocation.png" alt="gigawatt screenshot" class="image image-3">
+        <img src="/images/gw-design-system/old-new/new-allocation.png" alt="gigawatt screenshot" class="image image-4">
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">LOREM IPSUM</h2>
+      <p>Lorem ipsum</p>
+      <ul>
+          <li>Lorem ipsum</li>
+      </ul>
+    </div>
+
+    <div class="image-frame one-image">
+      <img src="/images/gw-design-system/persona/persona-3-min.png" alt="gigawatt screenshot" class="image">
+      
+    </div>
+
+
+    <div class="image-frame three-image-grid">
+      <img src="/images/gw-design-system/heatpunk/hp-1-min.png" alt="gigawatt screenshot" class="image image-1">
+      <img src="/images/gw-design-system/heatpunk/hp-2-min.png" alt="gigawatt screenshot" class="image image-2">
+      <img src="/images/gw-design-system/heatpunk/hp-3-min.png" alt="gigawatt screenshot" class="image image-3">
+    </div>
+
+  </div>
+
+
+
+  <div id="modalBackdrop" class="hidden">
+    <div id="modalOverlay">
+    <div id="modalBox">
+      <h3>Let’s work together!</h3>
+      <p>I’m currently open to new opportunities, whether freelance, contract, or full-time.</p>
+      <p>If you think I’d be a good fit for your team or project, I’d love to hear from you.</p>
+      <div class="contact-box">
+        <div class="name-work">
+            <h3>Will Foster</h3>            
+            <div class="available-to-work">
+                <div class="green-dot"></div>
+                <p>Available to work</p>
+            </div>
+        </div>
+        <h5>wjfoster0@gmail.com</h5>
+      </div>
+      <div class="modal-buttons">
+      <button id="copy-email">Copy email</button>
+      <button id="mail-to">Email me</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+  <div id="toast">Copied to clipboard!</div> 
+
+  <script src="script.js"></script>
+
+</body>
+</html>
