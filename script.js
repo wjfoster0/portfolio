@@ -95,3 +95,41 @@ mailToBtn.addEventListener('click', () => {
     toast.classList.remove('show');
   }, 2000);
 });
+
+
+window.addEventListener("DOMContentLoaded", () => {
+  if (window.location.hash === "#about-me") {
+    window.scrollTo(0, 0); // Scroll to top
+    history.replaceState(null, "", window.location.pathname); // Remove hash
+  }
+
+  if (window.location.hash === "#my-projects") {
+    window.scrollTo(0, 0); // Scroll to top
+    history.replaceState(null, "", window.location.pathname); // Remove hash
+  }
+});
+
+
+const menuToggle = document.getElementById('menu-toggle');
+  const sidebar = document.getElementById('sidebar');
+  const closeSidebar = document.getElementById('close-sidebar');
+  const overlay = document.getElementById('sidebar-overlay');
+
+  function openSidebar() {
+    sidebar.classList.add('open');
+    overlay.style.display = 'block';
+  }
+
+  function closeSidebarFn() {
+    sidebar.classList.remove('open');
+    overlay.style.display = 'none';
+  }
+
+  menuToggle.addEventListener('click', openSidebar);
+  closeSidebar.addEventListener('click', closeSidebarFn);
+  overlay.addEventListener('click', closeSidebarFn);
+
+  // Optional: close on nav link click
+  sidebar.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', closeSidebarFn);
+  });
