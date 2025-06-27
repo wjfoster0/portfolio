@@ -291,7 +291,7 @@ button:active {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90vw;
-  height: 500px;
+  height: 400px;
   background: white;
   border-radius: 20px;
   z-index: -2;
@@ -622,6 +622,7 @@ footer {
   align-items: flex-start;
   gap: 1.25rem;
   margin: 0 auto;
+  width: 100%;
 }
 .main-content h2.smaller {
   font-size: 3rem;
@@ -854,7 +855,7 @@ footer {
   h4 {
     font-size: 1.75rem;
   }
-  p {
+  p, li {
     font-size: 1.25rem;
   }
 }
@@ -875,7 +876,7 @@ footer {
   h4 {
     font-size: 1.25rem;
   }
-  p {
+  p, li {
     font-size: 1rem;
   }
 }

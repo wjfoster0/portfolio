@@ -44,10 +44,14 @@
   <div id="sidebar-overlay"></div>
 
 
+
+  
+
+
   <div class="main-content">
     <div class="text-section">
-        <h2>Title</h2>
-        <p class="bold">I led the design and implementation of a full design system for Easy PV, a web-based solar design platform used across the UK and Ireland to plan, cost, and document photovoltaic systems — from domestic rooftops to gigawatt-scale installations. The product had scaled quickly without any design foundation, resulting in inconsistency and friction. My work brought visual clarity, UX consistency, and long-term maintainability to a platform used by thousands of installers and engineers daily.</p>
+        <h2>Gigawatt</h2>
+        <p class="bold">I led the development and implementation of a full design system, named Gigawatt, for Easy PV, a web-based solar design platform for domestic to large-scale installations, used across the UK and Ireland to plan, cost and document photovoltaic systems. The product had scaled quickly without any design foundation, resulting in inconsistency and friction. My work brought visual clarity, UX consistency and long-term maintainability to a platform used by thousands of installers and engineers daily.</p>
     </div>
 
     <div class="image-frame seven-image-grid">
@@ -62,14 +66,14 @@
 
     <div class="text-section">
         <h2 class="smaller">Context & Problem</h2>
-        <p>Easy PV is a comprehensive solar design tool used by sales teams, engineers, and installation companies to spec and design PV systems, generate compliance documents, estimate costs and quote systems to homeowners. Despite its technical capabilities, the UI had grown organically — built almost entirely by engineers, without any dedicated designers.</p>
-        <p>By the time I joined the team, Easy PV was supporting projects ranging from small domestic arrays to industrial-scale multi-megawatt systems, but the interface was increasingly difficult to use and maintain:</p>
+        <p>Easy PV is a comprehensive solar design tool used by sales teams, engineers and installation companies to spec and design PV systems, generate compliance documents, estimate costs and quote homeowners for system builds. Despite its technical capabilities, the UI had grown organically – built almost entirely by engineers and without any dedicated designers.</p>
+        <p>By the time I joined the team, Easy PV was supporting projects ranging from small domestic arrays to industrial-scale multi-megawatt systems, but the interface was increasingly difficult to use and maintain:</p>
         <ul>
             <li>Inconsistent UI elements confused users and slowed onboarding</li>
             <li>Developers were re-creating components manually, leading to bugs and styling drift</li>
-            <li>There was no central source of truth for spacing, colours, or patterns</li>
+            <li>There was no central source of truth for spacing, colours or patterns</li>
         </ul>
-        <p>This was a well-used product in a critical infrastructure space. Fixing the design deficit wasn’t just a visual upgrade — it was essential for scalability, reliability, and user trust.</p>
+        <p>Easy PV was a well-used product in a critical infrastructure space. Fixing the design deficit wasn’t just a visual upgrade – it was essential for scalability, reliability and user trust.</p>
     </div>
 
     <div class="image-frame four-image-grid">
@@ -80,11 +84,8 @@
     </div>
 
     <div class="text-section">
-      <h2 class="smaller">LOREM IPSUM</h2>
-      <p>Lorem ipsum</p>
-      <ul>
-          <li>Lorem ipsum</li>
-      </ul>
+      <h2 class="smaller">Research</h2>
+      <p>I ran a focus group with internal stakeholders to define key design principles (Easy, Friendly, and Comprehensive) and understand product goals. To ground the system in real usage, I conducted interviews with installers at a solar trade event and developed three core personas. These captured user environments, workflows and pain points.</p>
     </div>
 
     <div class="image-frame one-image">
@@ -92,11 +93,80 @@
       
     </div>
 
+    <div class="text-section">
+      <h2 class="smaller">Goals</h2>
+      <ul>
+          <li>Introduce a unified visual system and defined interaction methods across the platform</li>
+          <li>Streamline development through reusable components and tokens</li>
+          <li>Improve UX consistency, especially in extensive and technical workflows</li>
+          <li>Reduce design ambiguity and UI-related bugs</li>
+          <li>Lay the foundation for future design hires and documentation</li>
+          <li>Ensure the system reflected Easy PV’s core brand values of being approachable, professional and comprehensive – supporting both technical and non-technical users</li>
+      </ul>
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Process</h2>
+      <p><b>1. UI Audit & Pattern Inventory</b></p>
+      <p>I reviewed every screen in the product, cataloguing all visual inconsistencies and repeated components, including dozens of near-identical button styles. I found an inconsistent use of system components and a complete lack of any spacing or structural systems.</p>
+      <br>
+      <p><b>2. Foundation Design</b></p>
+      <p>I defined a new visual language for Easy PV:</p>
+      <ul>
+        <li>Set a consistent type scale and modular spacing system</li>
+        <li>Created iconography rules and updated key status indicators</li>
+        <li>Defined consistent breakpoints for responsive design</li>
+      </ul>
+      <p>Gigawatt was also designed for Heatpunk, Easy PV's more formal sister product. The system includes flexible tokens, such as variable colour palettes and border radii, to allow each product to maintain a distinct visual voice while sharing the same structural foundations.</p>
+      <br>
+      <p><b>3. Component Library</b></p>
+      <p>Working closely with engineers, I designed and documented a comprehensive set of components in Figma: buttons, inputs, dropdowns, tables, tooltips, and more. Each was built with accessibility and real-world edge cases in mind.</p>
+      <p>Components were versioned and synced with development via a shared token system. I wrote detailed usage guidelines to reduce ambiguity and ensure alignment across design and code.</p>
+      <p>To accelerate adoption, I also developed basic HTML/CSS prototypes for key components. This helped bridge the gap between design and engineering, especially given the team’s lack of prior design collaboration experience.</p>
+      <br>
+      <p><b>4. Gradual Rollout</b></p>
+      <p>We integrated the system incrementally into the live product. I prioritized high-traffic pages and new features first, then worked backwards to refactor legacy sections without delaying the general development roadmap.</p>
+
+    </div>
 
     <div class="image-frame three-image-grid">
       <img src="/images/gw-design-system/heatpunk/hp-1-min.png" alt="gigawatt screenshot" class="image image-1">
       <img src="/images/gw-design-system/heatpunk/hp-2-min.png" alt="gigawatt screenshot" class="image image-2">
       <img src="/images/gw-design-system/heatpunk/hp-3-min.png" alt="gigawatt screenshot" class="image image-3">
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Challenges</h2>
+      <ul>
+          <li>Getting early buy-in from developers who had never worked with a design system</li>
+          <li>Balancing ideal UX designs with the technical limitations of the existing codebase</li>
+          <li>Avoiding perfectionism – shipping a useful v1 quickly and improving over time</li>
+          <li>Ensuring accessibility and clarity for a wide range of users, from tech-savvy engineers to admin staff</li>
+      </ul>
+    </div>
+
+
+    <div class="text-section">
+      <h2 class="smaller">Impact</h2>
+      <ul>
+          <li>Reduced developer time spent on UI work</li>
+          <li>Cut visual and interaction inconsistencies</li>
+          <li>Enabled faster onboarding of new developers through shared design documentation</li>
+          <li>Improved visual clarity and usability for core workflows, including roof mapping, documentation management, and solar mapping/inverter allocation.</li>
+      </ul>
+    </div>
+
+
+    <div class="text-section">
+      <h2 class="smaller">Reflection</h2>
+      <p>This project deepened my belief that good design isn’t surface-level – it’s a structural investment. I learned how to deliver design value in a highly technical product space, balancing clean visuals with functional depth. It also reinforced the value I place in field research. Talking directly to users helped me shape a system that worked for both engineers and admin staff. If I were to do it again, I’d integrate more regular user validation early on.</p>
+
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Tools</h2>
+      <p>Figma, HTML, CSS</p>
+
     </div>
 
   </div>
@@ -129,7 +199,8 @@
 
   <div id="toast">Copied to clipboard!</div> 
 
-  <script src="script.js"></script>
+  <script src="/script.js?v=1.0.1"></script>
+
 
 </body>
 </html>
