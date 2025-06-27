@@ -46,8 +46,8 @@
 
   <div class="main-content">
     <div class="text-section">
-        <h2>Title</h2>
-        <p class="bold">Lorem Ipsum</p>
+        <h2>Solar Marketplace</h2>
+        <p class="bold">This project focused on designing a new platform to help homeowners compare tailored solar installation quotes from vetted local installers. The tool leverages Easy PV’s existing automated roof scanning to generate quotes specific to the user’s property — making solar more approachable and giving installers high-quality leads with minimal admin.</p>
     </div>
 
     <div class="image-frame seven-image-grid">
@@ -62,9 +62,30 @@
 
     <div class="text-section">
         <h2 class="smaller">Context & Problem</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum lobortis ligula. Proin non gravida elit. Aliquam molestie finibus scelerisque. In condimentum tempor lectus, a ornare quam maximus aliquam. Quisque dictum a leo a vehicula. Pellentesque dignissim vitae dolor non molestie. Donec semper, mauris quis viverra porta, ante nibh aliquet justo, in luctus tortor ex viverra est. Sed tempus erat vulputate massa viverra tempus. Pellentesque tincidunt tempor augue eu ullamcorper. Aliquam porta ipsum vel libero egestas maximus. Vestibulum euismod nisi ut mollis dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eu turpis in quam ultrices euismod sed eget ante.</p>
+        <p>Easy PV is a solar design platform used by installers to size and price systems. The marketplace was a natural extension— offering homeowners a simple, intuitive way to request quotes while tapping into Easy PV’s existing installer base.</p>
+        <p>At the time, the solar quote comparison space was underdeveloped. The main direct competitor had poor visibility and a clunky interface, while indirect platforms like Heatable offered a much more refined, mobile-first experience. The challenge was to match that level of simplicity while providing multiple quotes at once.</p>
+    </div>
+
+    <div class="text-section">
+        <h2 class="smaller">Goals</h2>
         <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum lobortis ligula.</li>
+            <li>Create a simple, user-friendly experience for homeowners seeking solar</li>
+            <li>Allow for accurate quoting with minimal user input</li>
+            <li>Handle mobile and desktop needs with equal clarity</li>
+            <li>Provide a frictionless handoff between customer leads and installers</li>
+            <li>Build on Easy PV’s technical foundations while keeping the process intuitive</li>
+        </ul>
+    </div>
+
+    <div class="text-section">
+        <h2 class="smaller">Research</h2>
+        <p>I began with a competitor analysis to map the landscape. Although the main solar competitor had similar functionality, it lacked polish and customer reach. In contrast, indirect competitors, particularly Heatable, succeeded by streamlining every step and focusing on mobile usability.</p>
+        <p><b>Key takeaways included:</b></p>
+        <ul>
+            <li>Minimise steps and remove jargon wherever possible</li>
+            <li>Prioritise mobile UX, especially for early engagement</li>
+            <li>Provide immediate feedback and visible progress</li>
+            <li>Offer a sense of trust and reassurance through visual design</li>
         </ul>
     </div>
 
@@ -76,12 +97,16 @@
     </div>
 
     <div class="text-section">
-      <h2 class="smaller">Context & Problem</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum lobortis ligula. Proin non gravida elit. Aliquam molestie finibus scelerisque. In condimentum tempor lectus, a ornare quam maximus aliquam. Quisque dictum a leo a vehicula. Pellentesque dignissim vitae dolor non molestie. Donec semper, mauris quis viverra porta, ante nibh aliquet justo, in luctus tortor ex viverra est. Sed tempus erat vulputate massa viverra tempus. Pellentesque tincidunt tempor augue eu ullamcorper. Aliquam porta ipsum vel libero egestas maximus. Vestibulum euismod nisi ut mollis dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eu turpis in quam ultrices euismod sed eget ante.</p>
+      <h2 class="smaller">Wireframes & Process Design</h2>
+      <p>Using this insight, I mapped out a step-by-step journey for the quoting process. This included:</p>
       <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum lobortis ligula.</li>
+          <li>Property lookup and auto-roof scan</li>
+          <li>Manual fallback for roof drawing (where scanning failed)</li>
+          <li>Setting preferences and quote selection</li>
+          <li>Contact details and quote request confirmation</li>
       </ul>
-  </div>
+      <p>Wireframes were created for both mobile and desktop to test responsiveness and flow. Key attention was given to onboarding and offering just the right amount of guidance at each stage.</p>
+    </div>
 
     <div class="image-frame two-image-grid">
       <img src="/images/solar-marketplace/wireframes/wireframe-1.png" alt="gigawatt screenshot" class="image image-2">
@@ -89,11 +114,44 @@
       
     </div>
 
+    <div class="text-section">
+      <h2 class="smaller">Prototyping & Testing</h2>
+      <p>Once the wireframes were approved, I created a full interactive prototype in Figma. This allowed early-stage usability testing with both internal team members and a small group of target users.</p>
+      <p><b>Findings included:</b></p>
+      <ul>
+          <li>Users instinctively followed the quote journey without confusion</li>
+          <li>Roof drawing needed refinement on smaller screens</li>
+          <li>Language needed slight simplification to avoid technical terms</li>
+      </ul>
+      <p>These insights were used to iterate on the design — with particular care around iconography, and call-to-action visibility.</p>
+    </div>
+
 
     <div class="image-frame three-image-grid">
       <img src="/images/solar-marketplace/final/final-1.png" alt="gigawatt screenshot" class="image image-1">
       <img src="/images/solar-marketplace/final/final-2.png" alt="gigawatt screenshot" class="image image-2">
       <img src="/images/solar-marketplace/final/final-3.png" alt="gigawatt screenshot" class="image image-3">
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Final Designs & Implementation</h2>
+      <p>Final mockups included full layout specs, UI component styling, hover/active states, and annotations for developers. I worked closely with the engineering team during implementation to:</p>
+      <ul>
+          <li>Ensure proper handling of breakpoints and fallback flows</li>
+          <li>Translate design intent into functional, flexible code</li>
+          <li>Stress-test the drawing tool UX across devices</li>
+      </ul>
+      <p>The final product retained Easy PV’s strengths, precise data and trustworthy design tools, while making the experience seamless for homeowners.</p>
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Reflection</h2>
+      <p>The solar marketplace combined technical accuracy with user-first simplicity. Designing for trust, ease, and cross-platform use was key. I’d consider adding further A/B testing on early steps to improve conversion, and potentially explore profiling to simplify the form even more.</p>
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Tools</h2>
+      <p>Figma, competitor benchmarking, usability testing</p>
     </div>
 
 
@@ -128,7 +186,7 @@
 
   <div id="toast">Copied to clipboard!</div> 
 
-  <script src="script.js"></script>
+  <script src="/script.js"></script>
 
 </body>
 </html>

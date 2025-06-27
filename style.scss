@@ -325,7 +325,7 @@ button{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90vw;
-    height: 500px;
+    height: 400px;
     background: white;
     border-radius: 20px;
     z-index: -2;
@@ -689,6 +689,7 @@ section {
     align-items: flex-start;
     gap: 1.25rem;
      margin: 0 auto;
+width: 100%;
   }
 
   h2.smaller{
@@ -1016,7 +1017,7 @@ section {
     }
     
     
-    p{
+    p, li{
         font-size: 1.25rem;
     }
     
@@ -1051,7 +1052,7 @@ section {
         font-size: 1.25rem;
     }
 
-    p{
+    p, li{
         font-size: 1rem;
     }
 
