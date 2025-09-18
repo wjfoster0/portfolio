@@ -8,29 +8,7 @@ if (dot) {
   });
 }
 
-const wrapper = document.getElementById("horizontalWrapper");
-const scrollTrack = document.getElementById("scrollTrack");
 
-if (wrapper && scrollTrack) {
-  const panelCount = scrollTrack.children.length;
-  const panelGap = 15 * 16; // 15rem gap, converted to pixels
-  const panelWidth = 20 * 16; // 20rem width, converted to pixels
-  const scrollLength = (panelWidth + panelGap) * (panelCount - 1);
-
-  // Set wrapper height based on scroll length
-  wrapper.style.height = scrollLength + window.innerHeight + "px";
-
-  window.addEventListener("scroll", () => {
-    const wrapperTop = wrapper.offsetTop;
-    const scrollY = window.scrollY;
-    const maxScroll = scrollLength;
-
-    if (scrollY >= wrapperTop && scrollY <= wrapperTop + maxScroll) {
-      const progress = scrollY - wrapperTop;
-      scrollTrack.style.transform = `translateX(-${progress}px)`;
-    }
-  });
-}
 
 
 
