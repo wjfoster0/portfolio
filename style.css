@@ -800,9 +800,6 @@ footer {
   }
 }
 @media (max-width: 1100px) {
-  .my-projects-wrapper {
-    height: 120vh;
-  }
   .my-projects-content {
     flex-wrap: wrap;
     gap: 2rem;
@@ -814,9 +811,6 @@ footer {
 @media (max-width: 800px) {
   .background-rings {
     height: 250vh;
-  }
-  .my-projects-wrapper {
-    height: 150vh;
   }
   .my-projects-content {
     flex-wrap: nowrap;
