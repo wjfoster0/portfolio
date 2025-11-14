@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gigawatt Design System</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Changa:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Changa:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#151515"/>
+    <meta name="theme-color" content="#000">
+</head>
+<body>
+    <nav class="main-nav">
+        <div id="inner-nav">
+            <div class="nav-section left">
+              <a href="/index.html"><h3 class="nav-bar-name">Will Foster</h3></a>
+                <div class="available-to-work">
+                    <div class="green-dot"></div>
+                    <p>Available to work</p>
+                </div>
+            </div>
+            <div class="nav-section right">
+                <a href="/index.html" class="button-link"><button class="nav-button desktop-nav">Home</button></a>
+                <button class="desktop-nav open-contact-modal">Contact me</button>
+                <button class="nav-button icon-only mobile-nav"  id="menu-toggle" ><img src="/images/svg/burger.svg" alt="Menu"></button>
+            </div>
+        </div>
+    </nav>
+
+
+
+  <!-- Sidebar -->
+  <nav class="mobile-sidebar" id="sidebar">
+    <div id="close-sidebar" class="close-button"></div>
+    <ul>
+      <li><a href="/index.html" class="button-link"><button class="nav-button desktop-nav">Home</button></a></li>
+      <li><button class="desktop-nav open-contact-modal">Contact me</button></li>
+    </ul>
+  </nav>
+
+  <div id="sidebar-overlay"></div>
+
+
+  <div class="main-content">
+    <div class="text-section">
+        <h2>Midsummer</h2>
+        <p class="bold">In 2025, Midsummer, a leading UK renewable energy wholesaler, asked me to modernise their visual identity and redesign their online shop. The existing site had strong customer loyalty and brand recognition, but it lacked clarity, structure, and modern functionality. My goal was to evolve the brand without losing its roots and to make the shopping experience easier and more intuitive for trade customers.</p>
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Please contact me for more details</h2>
+      <p>I have been asked by Midsummer not to share this project within the industry, please contact me for further details and I will be happy to share.</p>
+  </div>
+  </div>
+
+
+
+<div class="text-section">
+  <h2 class="smaller">Tools</h2>
+  <p>Figma, HTML/CSS, stakeholder interviews, surveys, affinity mapping</p>
+
+</div>
+
+
+  </div>
+
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-lhs">
+            <h3 class="nav-bar-name">Will Foster</h3>
+            <div class="available-to-work">
+                <div class="green-dot"></div>
+                <p>Available to work</p>
+            </div>
+        </div>
+        <div class="footer-rhs">
+       
+        <a href="/files/Will-Foster-Resume.pdf" target="_blank" class="button-link"><button class="footer-button">Open resume</button></a>
+        <button class="footer-button open-contact-modal">Contact me</button>
+        </div>
+    </div>
+</footer>
+
+
+
+  <div id="modalBackdrop" class="hidden">
+    <div id="modalOverlay">
+    <div id="modalBox">
+      <h3>Let’s work together!</h3>
+      <p>I’m currently open to new opportunities, whether freelance, contract, or full-time.</p>
+      <p>If you think I’d be a good fit for your team or project, I’d love to hear from you.</p>
+      <div class="contact-box">
+        <div class="name-work">
+            <h3>Will Foster</h3>            
+            <div class="available-to-work">
+                <div class="green-dot"></div>
+                <p>Available to work</p>
+            </div>
+        </div>
+        <h5>wjfoster0@gmail.com</h5>
+      </div>
+      <div class="modal-buttons">
+      <button id="copy-email">Copy email</button>
+      <button id="mail-to">Email me</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+  <div id="toast">Copied to clipboard!</div> 
+
+  <script src="/script.js"></script>
+
+</body>
+</html>
