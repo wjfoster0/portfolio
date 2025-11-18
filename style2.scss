@@ -219,6 +219,18 @@ button{
   z-index: -1;
 }
 
+.top-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: env(safe-area-inset-top);
+  background: white; /* or any color you want */
+  pointer-events: none; /* so it doesn’t block taps */
+  z-index: 9999;
+}
+
+
 
 .blob{
     position:absolute;
@@ -1497,6 +1509,10 @@ footer {
 
     .modal-buttons{
       flex-direction: column;
+    }
+
+    .blob{
+      right: -10rem;
     }
 
 }
