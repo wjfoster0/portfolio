@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: Arial, sans-serif;
   background: #F3F3F3;
@@ -196,16 +197,14 @@ button.transparent:active {
   z-index: -1;
 }
 
-.fake-top-blur {
-  content: "";
+.top-cover {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: env(safe-area-inset-top); /* or a fixed px estimate */
-  background: rgba(255, 255, 255, 0.4); /* whatever matches your blur */
-  backdrop-filter: blur(20px);
-  pointer-events: none;
+  height: calc(env(safe-area-inset-top) + 10px); /* covers the whole top zone */
+  background: white; /* or any color you want */
+  pointer-events: none; /* so it doesn’t block taps */
   z-index: 9999;
 }
 
