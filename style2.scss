@@ -224,11 +224,12 @@ button{
   top: 0;
   left: 0;
   width: 100%;
-  height: env(safe-area-inset-top);
-  background: white; /* or any color you want */
-  pointer-events: none; /* so it doesn’t block taps */
+  height: calc(env(safe-area-inset-top) + 60px); /* covers Dynamic Island + URL bar expansion */
+  background: white;
+  pointer-events: none;
   z-index: 9999;
 }
+
 
 
 
