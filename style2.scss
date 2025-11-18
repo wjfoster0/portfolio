@@ -218,6 +218,19 @@ button{
   z-index: -1;
 }
 
+.fake-top-blur {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: env(safe-area-inset-top); /* or a fixed px estimate */
+  background: rgba(255,255,255,0.4); /* whatever matches your blur */
+  backdrop-filter: blur(20px);
+  pointer-events: none;
+  z-index: 9999;
+}
+
 .blob{
     position:absolute;
     right: 0;
