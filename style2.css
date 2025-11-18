@@ -190,7 +190,7 @@ button.transparent:active {
   top: 0;
   left: 0;
   width: 100dvw;
-  height: 100dvh; /* actual visible height */
+  height: 150dvh; /* actual visible height */
   backdrop-filter: blur(100px);
   pointer-events: none;
   z-index: -1;
