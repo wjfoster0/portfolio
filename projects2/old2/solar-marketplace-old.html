@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar marketplace</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Changa:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Changa:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#151515"/>
+    <meta name="theme-color" content="#000">
+</head>
+<body>
+    <nav class="main-nav">
+        <div id="inner-nav">
+            <div class="nav-section left">
+                <a href="/index.html"><h3 class="nav-bar-name">Will Foster</h3></a>
+                <div class="available-to-work">
+                    <div class="green-dot"></div>
+                    <p>Available to work</p>
+                </div>
+            </div>
+            <div class="nav-section right">
+                <a href="/index.html" class="button-link"><button class="nav-button desktop-nav">Home</button></a>
+                <button class="desktop-nav open-contact-modal">Contact me</button>
+                <button class="nav-button icon-only mobile-nav"  id="menu-toggle" ><img src="/images/svg/burger.svg" alt="Menu"></button>
+            </div>
+        </div>
+    </nav>
+
+
+
+  <!-- Sidebar -->
+  <nav class="mobile-sidebar" id="sidebar">
+    <div id="close-sidebar" class="close-button"></div>
+    <ul>
+      <li><a href="/index.html" class="button-link"><button class="nav-button desktop-nav">Home</button></a></li>
+      <li><button class="desktop-nav open-contact-modal">Contact me</button></li>
+    </ul>
+  </nav>
+
+  <div id="sidebar-overlay"></div>
+
+
+  <div class="main-content">
+    <div class="text-section">
+        <h2>Solar Marketplace</h2>
+        <p class="bold">This project focused on designing a new platform to help homeowners compare tailored solar installation quotes from vetted local installers. The tool leverages Easy PV’s existing automated roof scanning to generate quotes specific to the user’s property — making solar more approachable and giving installers high-quality leads with minimal admin.</p>
+    </div>
+
+    <div class="image-frame seven-image-grid">
+        <img src="/images/solar-marketplace/smp/smp-4-min.png" alt="gigawatt screenshot" class="image image-1">
+        <img src="/images/solar-marketplace/smp/smp-2-min.png" alt="gigawatt screenshot" class="image image-2">
+        <img src="/images/solar-marketplace/smp/smp-3-min.png" alt="gigawatt screenshot" class="image image-3">
+        <img src="/images/solar-marketplace/smp/smp-6-min.png" alt="gigawatt screenshot" class="image image-4">
+        <img src="/images/solar-marketplace/smp/smp-5-min.png" alt="gigawatt screenshot" class="image image-5">
+        <img src="/images/solar-marketplace/smp/smp-7-min.png" alt="gigawatt screenshot" class="image image-6">
+        <img src="/images/solar-marketplace/smp/smp-1-min.png" alt="gigawatt screenshot" class="image image-7">
+    </div>
+
+    <div class="text-section">
+        <h2 class="smaller">Context & Problem</h2>
+        <p>Easy PV is a solar design platform used by installers to size and price systems. The marketplace was a natural extension— offering homeowners a simple, intuitive way to request quotes while tapping into Easy PV’s existing installer base.</p>
+        <p>At the time, the solar quote comparison space was underdeveloped. The main direct competitor had poor visibility and a clunky interface, while indirect platforms like Heatable offered a much more refined, mobile-first experience. The challenge was to match that level of simplicity while providing multiple quotes at once.</p>
+    </div>
+
+    <div class="text-section">
+        <h2 class="smaller">Goals</h2>
+        <ul>
+            <li>Create a simple, user-friendly experience for homeowners seeking solar</li>
+            <li>Allow for accurate quoting with minimal user input</li>
+            <li>Handle mobile and desktop needs with equal clarity</li>
+            <li>Provide a frictionless handoff between customer leads and installers</li>
+            <li>Build on Easy PV’s technical foundations while keeping the process intuitive</li>
+        </ul>
+    </div>
+
+    <div class="text-section">
+        <h2 class="smaller">Research</h2>
+        <p>I began with a competitor analysis to map the landscape. Although the main solar competitor had similar functionality, it lacked polish and customer reach. In contrast, indirect competitors, particularly Heatable, succeeded by streamlining every step and focusing on mobile usability.</p>
+        <p><b>Key takeaways included:</b></p>
+        <ul>
+            <li>Minimise steps and remove jargon wherever possible</li>
+            <li>Prioritise mobile UX, especially for early engagement</li>
+            <li>Provide immediate feedback and visible progress</li>
+            <li>Offer a sense of trust and reassurance through visual design</li>
+        </ul>
+    </div>
+
+    <div class="image-frame four-image-grid">
+        <img src="/images/solar-marketplace/competitor-analysis/competitor-analysis-1.png" alt="gigawatt screenshot" class="image image-1">
+        <img src="/images/solar-marketplace/competitor-analysis/competitor-analysis-2.png" alt="gigawatt screenshot" class="image image-2">
+        <img src="/images/solar-marketplace/competitor-analysis/competitor-analysis-3.png" alt="gigawatt screenshot" class="image image-3">
+        <img src="/images/solar-marketplace/competitor-analysis/competitor-analysis-4.png" alt="gigawatt screenshot" class="image image-4">
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Wireframes & Process Design</h2>
+      <p>Using this insight, I mapped out a step-by-step journey for the quoting process. This included:</p>
+      <ul>
+          <li>Property lookup and auto-roof scan</li>
+          <li>Manual fallback for roof drawing (where scanning failed)</li>
+          <li>Setting preferences and quote selection</li>
+          <li>Contact details and quote request confirmation</li>
+      </ul>
+      <p>Wireframes were created for both mobile and desktop to test responsiveness and flow. Key attention was given to onboarding and offering just the right amount of guidance at each stage.</p>
+    </div>
+
+    <div class="image-frame two-image-grid">
+      <img src="/images/solar-marketplace/wireframes/wireframe-1.png" alt="gigawatt screenshot" class="image image-2">
+      <img src="/images/solar-marketplace/wireframes/wireframe-2.png" alt="gigawatt screenshot" class="image image-2">
+      
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Prototyping & Testing</h2>
+      <p>Once the wireframes were approved, I created a full interactive prototype in Figma. This allowed early-stage usability testing with both internal team members and a small group of target users.</p>
+      <p><b>Findings included:</b></p>
+      <ul>
+          <li>Users instinctively followed the quote journey without confusion</li>
+          <li>Roof drawing needed refinement on smaller screens</li>
+          <li>Language needed slight simplification to avoid technical terms</li>
+      </ul>
+      <p>These insights were used to iterate on the design — with particular care around iconography, and call-to-action visibility.</p>
+    </div>
+
+
+    <div class="image-frame three-image-grid">
+      <img src="/images/solar-marketplace/final/final-1.png" alt="gigawatt screenshot" class="image image-1">
+      <img src="/images/solar-marketplace/final/final-2.png" alt="gigawatt screenshot" class="image image-2">
+      <img src="/images/solar-marketplace/final/final-3.png" alt="gigawatt screenshot" class="image image-3">
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Final Designs & Implementation</h2>
+      <p>Final mockups included full layout specs, UI component styling, hover/active states, and annotations for developers. I worked closely with the engineering team during implementation to:</p>
+      <ul>
+          <li>Ensure proper handling of breakpoints and fallback flows</li>
+          <li>Translate design intent into functional, flexible code</li>
+          <li>Stress-test the drawing tool UX across devices</li>
+      </ul>
+      <p>The final product retained Easy PV’s strengths, precise data and trustworthy design tools, while making the experience seamless for homeowners.</p>
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Reflection</h2>
+      <p>The solar marketplace combined technical accuracy with user-first simplicity. Designing for trust, ease, and cross-platform use was key. I’d consider adding further A/B testing on early steps to improve conversion, and potentially explore profiling to simplify the form even more.</p>
+    </div>
+
+    <div class="text-section">
+      <h2 class="smaller">Tools</h2>
+      <p>Figma, competitor benchmarking, usability testing</p>
+    </div>
+
+
+
+  </div>
+
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-lhs">
+            <h3 class="nav-bar-name">Will Foster</h3>
+            <div class="available-to-work">
+                <div class="green-dot"></div>
+                <p>Available to work</p>
+            </div>
+        </div>
+        <div class="footer-rhs">
+       
+        <a href="/files/Will-Foster-Resume.pdf" target="_blank" class="button-link"><button class="footer-button">Open resume</button></a>
+        <button class="footer-button open-contact-modal">Contact me</button>
+        </div>
+    </div>
+</footer>
+
+
+
+  <div id="modalBackdrop" class="hidden">
+    <div id="modalOverlay">
+    <div id="modalBox">
+      <h3>Let’s work together!</h3>
+      <p>I’m currently open to new opportunities, whether freelance, contract, or full-time.</p>
+      <p>If you think I’d be a good fit for your team or project, I’d love to hear from you.</p>
+      <div class="contact-box">
+        <div class="name-work">
+            <h3>Will Foster</h3>            
+            <div class="available-to-work">
+                <div class="green-dot"></div>
+                <p>Available to work</p>
+            </div>
+        </div>
+        <h5>wjfoster0@gmail.com</h5>
+      </div>
+      <div class="modal-buttons">
+      <button id="copy-email">Copy email</button>
+      <button id="mail-to">Email me</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+  <div id="toast">Copied to clipboard!</div> 
+
+  <script src="/script.js"></script>
+
+</body>
+</html>
