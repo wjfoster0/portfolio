@@ -201,7 +201,7 @@ button.transparent:active {
   top: 0;
   left: 0;
   width: 100%;
-  height: calc(env(safe-area-inset-top) + 10px); /* covers Dynamic Island + URL bar expansion */
+  height: env(safe-area-inset-top); /* covers Dynamic Island + URL bar expansion */
   background: white;
   pointer-events: none;
   z-index: 9999;
