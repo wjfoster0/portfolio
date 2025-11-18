@@ -772,9 +772,9 @@ footer {
   will-change: backdrop-filter;
   transform: translateZ(0);
   color: white;
-  max-width: 90%;
   display: flex;
   width: 32.9375rem;
+  max-width: 80vw;
   padding: 2rem;
   flex-direction: column;
   align-items: flex-start;
@@ -954,17 +954,29 @@ footer {
   p.subtitle {
     font-size: 1rem;
   }
-  button.back {
+  button .back {
     display: flex;
     padding: 0.75rem 1.5rem 0.75rem 2rem;
     font-size: 1.25rem;
   }
-  button.back.icon-left {
+  button .back.icon-left {
     padding: 0.75rem 2rem 0.75rem 1.5rem;
   }
-  button.back img {
+  button .back img {
     width: 20px;
     height: 20px;
+  }
+  .modal-buttons button {
+    display: flex;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    font-size: 1rem;
+  }
+  .modal-buttons button.icon-left {
+    padding: 0.5rem 1.5rem 0.5rem 1rem;
+  }
+  .modal-buttons button img {
+    width: 16px;
+    height: 16px;
   }
   footer {
     height: 16rem;
@@ -990,6 +1002,9 @@ footer {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+  }
+  .tab-container .contact-me {
+    display: none;
   }
   .main-content .text-section .logos {
     gap: 0.75rem;
@@ -1189,6 +1204,9 @@ footer {
   }
   .two-laptops {
     margin: 0 0;
+  }
+  .modal-buttons {
+    flex-direction: column;
   }
 }
 
