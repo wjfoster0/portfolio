@@ -196,6 +196,17 @@ button.transparent:active {
   z-index: -1;
 }
 
+.top-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(env(safe-area-inset-top) + 10px); /* covers Dynamic Island + URL bar expansion */
+  background: white;
+  pointer-events: none;
+  z-index: 9999;
+}
+
 .blob {
   position: absolute;
   right: 0;
