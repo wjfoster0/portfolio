@@ -189,13 +189,14 @@ button.transparent:active {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  height: 200%;
   opacity: 1;
   pointer-events: none;
   z-index: -90;
   fill: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(100px);
+  overflow: visible;
 }
 
 .blob {
