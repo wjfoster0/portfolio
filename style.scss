@@ -198,7 +198,7 @@ li{
   display: flex;
   flex-direction: column;
   gap: 300px;
-  padding: 300px 0;
+  padding: 250px 0;
   align-items: center;
 
 
@@ -1102,11 +1102,24 @@ li{
       font-weight: 590;
     }
 
-  
   }
 
- 
-  
+  @media (max-width: 680px) {
+    max-width: 90vw;
+    padding: 1.25rem;
+
+    .contact-box {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .grouped-links {
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+  }
+
 }
 
 #passwordBackdrop {
