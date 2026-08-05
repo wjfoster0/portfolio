@@ -810,7 +810,6 @@ li {
     letter-spacing: 0.08em;
     line-height: 1.2;
     color: rgba(24, 24, 24, 0.65);
-    text-transform: uppercase;
   }
   .projects .project-container .project-details {
     flex-direction: column;
