@@ -602,6 +602,16 @@ li {
   height: auto;
 }
 
+.hero-video-cropped {
+  overflow: hidden;
+}
+.hero-video-cropped video {
+  width: 126.4%;
+  margin-left: -13.2%;
+  height: auto;
+  display: block;
+}
+
 /* Smaller max-width for competitor analysis slides when stacked on small screens */
 .competitor-slide {
   flex: 1 1 320px;
