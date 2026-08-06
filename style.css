@@ -602,33 +602,6 @@ li {
   height: auto;
 }
 
-.hero-video-cropped {
-  overflow: hidden;
-}
-.hero-video-cropped video {
-  width: 126.4%;
-  margin-left: -13.2%;
-  height: auto;
-  display: block;
-}
-
-/* Smaller max-width for competitor analysis slides when stacked on small screens */
-.competitor-slide {
-  flex: 1 1 320px;
-}
-.competitor-slide img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-@media (max-width: 840px) {
-  .competitor-slide {
-    max-width: 680px;
-    margin: 0 auto;
-  }
-}
-
 .goals-list {
   margin: 0;
   padding: 0;
