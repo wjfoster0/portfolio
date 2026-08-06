@@ -710,8 +710,20 @@ li{
       height: auto;
     }
   }
-}
 
+  &.hero-video-cropped{
+    position: relative;
+    overflow: hidden;
+
+    img, video{
+      position: relative;
+      width: 126.4% !important;
+      max-width: none !important;
+      left: -13.2% !important;
+      height: auto;
+    }
+  }
+}
 
 
 .goals-list{
